@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pindah_activity"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pindah_activity_dengan_data"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pindah_activity_dengan_object"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_a_number"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pindah_activity_dengan_result"
+        android:textAllCaps="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="@string/input_text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="@string/input_text" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</LinearLayout>
